@@ -19,6 +19,7 @@ class URLSafe
     {
         #$data =~ tr|\-_\t-\x0d |+/|d;
         $data = strtr($data, '-_', '+/');
+        $data = preg_replace('/[\t-\x0d\s]/', '', $data);
 
         $mod4 = strlen($data) % 4;
         if ($mod4) {
