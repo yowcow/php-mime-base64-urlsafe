@@ -5,7 +5,6 @@
     "type": "library",
     "license": "MIT",
     "homepage": "https://github.com/yowcow/php-mime-base64-urlsafe",
-    "version": "0.0.1",
     "authors": [
         {
             "name": "yowcow",
