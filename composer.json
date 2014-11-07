@@ -1,0 +1,22 @@
+{
+    "name": "yowcow/mime-base64-urlsafe",
+    "description": "PHP-version of URL safe base64 encoding/decoding",
+    "keywords": ["mime", "base64", "url", "uri"],
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/yowcow/php-mime-base64-urlsafe",
+    "authors": [
+        {
+            "name": "yowcow",
+            "email": "yowcow@cpan.org"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "4.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "MIME": "lib/"
+        }
+    }
+}
