@@ -1,10 +1,10 @@
 <?php
 
-namespace MIME\Base64;
+namespace MIME;
 
-class URLSafe
+class Base64URLSafe
 {
-    public static function b64encode($str)
+    public static function urlsafe_b64encode($str)
     {
         $data = base64_encode($str);
 
@@ -15,7 +15,7 @@ class URLSafe
         return $data;
     }
 
-    public static function b64decode($data)
+    public static function urlsafe_b64decode($data)
     {
         #$data =~ tr|\-_\t-\x0d |+/|d;
         $data = strtr($data, '-_', '+/');
