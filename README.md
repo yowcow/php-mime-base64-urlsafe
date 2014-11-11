@@ -8,7 +8,7 @@ MIME::Base64URLSafe - URL-safe Base64 Encoder/Decoder
 DESCRIPTION
 -----------
 
-PHP implementation of Perl module [MIME::Base64::URLSafe](http://search.cpan.org/perldoc/MIME::Base64::URLSafe).
+PHP implementation of Perl module [MIME::Base64::URLSafe](https://metacpan.org/pod/MIME::Base64::URLSafe).
 
 SYNOPSIS
 --------
