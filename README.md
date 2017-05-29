@@ -16,7 +16,7 @@ SYNOPSIS
 ### Encoding
 
 ~~~php
-use MIME::Base64URLSafe;
+use \MIME\Base64URLSafe;
 
 $output = Base64URLSafe::urlsafe_b64encode('Original Message');
 // "T3JpZ2luYWwgTWVzc2FnZQ"
@@ -25,7 +25,7 @@ $output = Base64URLSafe::urlsafe_b64encode('Original Message');
 ### Decoding
 
 ~~~php
-use MIME::Base64URLSafe;
+use \MIME\Base64URLSafe;
 
 $input = Base64URLSafe::urlsafe_b64decode('T3JpZ2luYWwgTWVzc2FnZQ');
 // "Original Message"
