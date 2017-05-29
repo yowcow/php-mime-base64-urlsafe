@@ -10,7 +10,7 @@ php:
   - "7.1"
   - "nightly"
   - "hhvm"
-  - "hhvm-nightly"
+  #- "hhvm-nightly"
 
 script:
   - make update-source
