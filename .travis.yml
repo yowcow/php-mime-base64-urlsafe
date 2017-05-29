@@ -9,7 +9,7 @@ php:
   - "7.0"
   - "7.1"
   - "nightly"
-  - "hhvm"
+  #- "hhvm"
   #- "hhvm-nightly"
 
 script:
